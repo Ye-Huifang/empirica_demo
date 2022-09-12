@@ -1,8 +1,13 @@
 # Empirica Demo
 
-_This project was generated with [create-empirica-app](https://github.com/empiricaly/create-empirica-app)._
+## Answers to the questions
+1. About 10 hours.
 
-*Add a description of your Empirica app*
+2. The biggest challenge is to familiarize myself with Empirica before designing the game. And I should take the version of React into account as the current version does not support newer features such as useRef().
+
+3. I first create nine dots with the radius of 10px. As users are not allowed to lift the "pen", I use two dots, fromDot and toDot to create a line. With the coordinates of two dots, I can then find the equation of the line ax + by + c = 0 and calculate the distance between the center of circle to the line. If the distance is smaller or equal to the radius of circle, i.e. 10px, we believe the line intersects with the circle.
+
+4. I will then finish implementing the multiplayer mode. When the other player finish drawing all the lines, we will show the result to the play.
 
 # Running this App Locally
 
