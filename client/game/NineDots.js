@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-// import rough from 'roughjs/bundled/rough.esm'
-import './NineDots.css';
 import { useHooks, useLayoutEffect } from "use-react-hooks";
 
 let data = {
