@@ -6,10 +6,9 @@ export default class TaskStimulus extends React.Component {
 
     return (
       <div className="task-stimulus">
-        <p>Please try to connect the dots with indicated number of connected straight lines.</p>
-        <p>Draw lines by clicking down and dragging your cursor.</p>
-        <p>A green dot shows that the dot has been connected, while a red one shows it has not.</p>
-        <p>Press "Done!" to save your result, and the "Submit" to move to the next round.</p>
+        <p>Please try to connect all the nine dots with at most four connected straight lines.</p>
+        <p>Note that you cannot lift the pen.</p>
+        <p>Press "Submit" to submit your result.</p>
       </div>
     );
   }
